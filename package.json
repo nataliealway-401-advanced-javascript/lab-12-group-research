@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "## WordPress OAuth",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "superagent": "^5.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliealway-401-advanced-javascript/lab-12-group-research.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nataliealway-401-advanced-javascript/lab-12-group-research/issues"
+  },
+  "homepage": "https://github.com/nataliealway-401-advanced-javascript/lab-12-group-research#readme"
+}
